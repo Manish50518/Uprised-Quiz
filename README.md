@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+# Uprised-Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uprised-Quiz is a React-based web application for evaluating users on various skill sets through an engaging and interactive quiz. This project was developed as an assignment for the React Developer role at Uprised.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Screen**: Start the quiz with ease.
+- **Question Screen**: Answer quiz questions dynamically fetched from the backend.
+- **Report Screen**: View the final score and performance summary.
+- **Mock API Integration**: Uses [mockapi.io](https://mockapi.io/) to simulate backend services.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React
+- **Styling**: CSS
+- **Backend**: Mock API for data
+- **Deployment**: Hosted online for demonstration
+- **Version Control**: Git/GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow these steps to set up the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher)
+- npm or yarn
+- A code editor (e.g., VS Code)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/Manish50518/Uprised-Quiz.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd Uprised-Quiz
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   The application will run at [http://localhost:3000](http://localhost:3000).
 
-### Code Splitting
+### Mock API Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project uses [mockapi.io](https://mockapi.io/) to simulate API endpoints for quiz data. Ensure you create a project in mockapi.io and configure the endpoints for:
 
-### Analyzing the Bundle Size
+- **Quiz Questions**: `/questions`
+- **Quiz Results**: `/results`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Replace the base URL in the code with your mockapi.io project URL in the respective service or API utility files.
 
-### Making a Progressive Web App
+Example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```javascript
+const BASE_URL = 'https://<your-mockapi-url>.mockapi.io';
+```
 
-### Advanced Configuration
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+Uprised-Quiz/
+├── public/
+├── src/
+│   ├── components/   # Reusable React components
+│   ├── pages/        # Page-level components (Home, Quiz, Report)
+│   ├── services/     # API integration logic
+│   ├── styles/       # Tailwind CSS setup
+│   ├── App.js        # Main app entry point
+│   ├── index.js      # React DOM rendering
+├── package.json      # Project dependencies
+└── README.md         # Project documentation
+```
 
-### Deployment
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project can be deployed using any static hosting service like Vercel, Netlify, or GitHub Pages. For deployment instructions:
 
-### `npm run build` fails to minify
+1. Build the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+2. Deploy the contents of the `build` folder to your chosen hosting service.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+1. Fork the repository.
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -m "Add some feature"
+   ```
+
+4. Push the branch:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For any queries or feedback, please contact [Manish50518](https://github.com/Manish50518).
