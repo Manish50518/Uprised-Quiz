@@ -1,50 +1,59 @@
 # Uprised-Quiz
 
-Uprised-Quiz is a React-based web application for evaluating users on various skill sets through an engaging and interactive quiz. This project was developed as an assignment for the React Developer role at Uprised.
+**Uprised-Quiz** is an interactive web-based application built using React. It evaluates users' knowledge on various skills through engaging quiz questions, offering a seamless experience with a responsive UI. This project was designed as part of an assignment for the React Developer role at Uprised.
+
+Live Demo: [Uprised-Quiz](https://uprised-quiz.vercel.app/)  
+GitHub Repository: [Uprised-Quiz Repo](https://github.com/Manish50518/Uprised-Quiz)
+
+---
 
 ## Features
 
-- **Home Screen**: Start the quiz with ease.
-- **Question Screen**: Answer quiz questions dynamically fetched from the backend.
-- **Report Screen**: View the final score and performance summary.
-- **Mock API Integration**: Uses [mockapi.io](https://mockapi.io/) to simulate backend services.
+- **Home Page**: Introduces users to the quiz and provides a start button.
+- **Dynamic Question Screen**: Displays quiz questions dynamically fetched from the backend.
+- **Result Summary**: Generates a performance report with the final score.
+- **Mock API Integration**: Uses [mockapi.io](https://mockapi.io/) for backend simulation.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
 
-## Tech Stack
+---
 
-- **Frontend**: React
-- **Styling**: CSS
-- **Backend**: Mock API for data
-- **Deployment**: Hosted online for demonstration
-- **Version Control**: Git/GitHub
+## Technologies Used
+
+### Frontend:
+- **React.js**: A JavaScript library for building the user interface.
+- **Tailwind CSS**: For responsive and modern styling.
+- **JavaScript (ES6+)**: Core language for implementing logic.
+
+### Backend:
+- **Mock API**: [mockapi.io](https://mockapi.io) is used to simulate RESTful API endpoints for:
+  - Fetching quiz questions (`/questions`).
+  - Saving and retrieving quiz results (`/results`).
+
+---
+---
 
 ## Getting Started
 
 Follow these steps to set up the project locally:
 
 ### Prerequisites
-
 Ensure you have the following installed:
-
-- Node.js (v14 or higher)
-- npm or yarn
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 - A code editor (e.g., VS Code)
 
 ### Installation
-
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/Manish50518/Uprised-Quiz.git
    ```
 
-2. Navigate to the project directory:
-
+2. Navigate to the project folder:
    ```bash
    cd Uprised-Quiz
    ```
 
 3. Install dependencies:
-
    ```bash
    npm install
    # or
@@ -52,7 +61,6 @@ Ensure you have the following installed:
    ```
 
 4. Start the development server:
-
    ```bash
    npm start
    # or
@@ -61,80 +69,4 @@ Ensure you have the following installed:
 
    The application will run at [http://localhost:3000](http://localhost:3000).
 
-### Mock API Configuration
-
-This project uses [mockapi.io](https://mockapi.io/) to simulate API endpoints for quiz data. Ensure you create a project in mockapi.io and configure the endpoints for:
-
-- **Quiz Questions**: `/questions`
-- **Quiz Results**: `/results`
-
-Replace the base URL in the code with your mockapi.io project URL in the respective service or API utility files.
-
-Example:
-
-```javascript
-const BASE_URL = 'https://<your-mockapi-url>.mockapi.io';
-```
-
-## Folder Structure
-
-```
-Uprised-Quiz/
-├── public/
-├── src/
-│   ├── components/   # Reusable React components
-│   ├── pages/        # Page-level components (Home, Quiz, Report)
-│   ├── services/     # API integration logic
-│   ├── styles/       # Tailwind CSS setup
-│   ├── App.js        # Main app entry point
-│   ├── index.js      # React DOM rendering
-├── package.json      # Project dependencies
-└── README.md         # Project documentation
-```
-
-## Deployment
-
-The project can be deployed using any static hosting service like Vercel, Netlify, or GitHub Pages. For deployment instructions:
-
-1. Build the project:
-
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
-
-2. Deploy the contents of the `build` folder to your chosen hosting service.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature-name
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add some feature"
-   ```
-
-4. Push the branch:
-
-   ```bash
-   git push origin feature-name
-   ```
-
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For any queries or feedback, please contact [Manish50518](https://github.com/Manish50518).
+---
