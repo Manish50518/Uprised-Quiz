@@ -8,12 +8,12 @@
         "Wireless Application Portal",
         "Wireless Application parts"
       ],
-      "img": "https://ojhyoprgrmmnpiaavsiq.supabase.co/storage/v1/object/public/product-images/louis-philippe-denem.webp",
+
       "correctOption": 0,
       "points": 10
     },
     {
-      "question": "According to the give image the working of Lifecycle of a React component is true or false",
+      "question": "According to the give image the working Lifecycle of a React component is true or false",
       "options": ["true", "false"],
       "img": "https://ojhyoprgrmmnpiaavsiq.supabase.co/storage/v1/object/public/product-images/reactlifecycle.webp",
       "correctOption": 0,

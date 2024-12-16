@@ -162,8 +162,8 @@ h4 {
   margin-bottom: 2rem;
 }
 .next_btn:hover {
-  background-color: white;
-  color: #e65c00;
+  background-color: #e65c00;
+  color: white;
 }
 
 .start-btn {
@@ -262,4 +262,20 @@ progress {
   border-radius: 100px;
   margin-top: 7rem;
   margin-bottom: 7rem;
+}
+
+.restart-container {
+  margin: 0 auto;
+}
+
+.restart-btn {
+  margin: 0 auto;
+  background-color: white;
+  color: #e65c00;
+  margin-bottom: 2rem;
+}
+
+.restart-btn:hover {
+  background-color: #e65c00;
+  color: white;
 }

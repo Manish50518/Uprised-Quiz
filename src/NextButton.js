@@ -16,12 +16,12 @@ function NextButton({ dispatch, numQuestion, index, answer }) {
 
   if (index === numQuestion - 1) {
     return (
-      <div className="finish-btn-container">
+      <div className="next-btn-container">
         <button
-          className="finish-btn btn"
+          className="next_btn btn"
           onClick={() => dispatch({ type: "finish" })}
         >
-          Finish
+          Finish ✔️
         </button>
       </div>
     );

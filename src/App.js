@@ -88,13 +88,14 @@ function App() {
     useReducer(reducer, initialState);
 
   const numQuestion = questions.length;
+  console.log(numQuestion);
   const maxPossiblePoints = questions.reduce(
     (acc, item) => acc + item.points,
     0
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://67603fe06be7889dc35d57fc.mockapi.io/questions/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
