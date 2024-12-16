@@ -30,7 +30,6 @@ GitHub Repository: [Uprised-Quiz Repo](https://github.com/Manish50518/Uprised-Qu
   - Saving and retrieving quiz results (`/results`).
 
 ---
----
 
 ## Getting Started
 
