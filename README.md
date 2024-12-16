@@ -31,7 +31,7 @@ GitHub Repository: [Uprised-Quiz Repo](https://github.com/Manish50518/Uprised-Qu
 
 ---
 
-![Screenshot 2024-12-16 213333](https://github.com/user-attachments/assets/3b94ef4f-90c9-4449-aeb6-d3e8a232f0e5)
+![Screenshot 2024-12-16 213456](https://github.com/user-attachments/assets/792fdeba-b9f3-4e9a-81be-71b76548e670)
 ![Screenshot 2024-12-16 213356](https://github.com/user-attachments/assets/16b31376-4ffd-4b0b-b37a-41d21b4e012e)
 ![Screenshot 2024-12-16 213514](https://github.com/user-attachments/assets/99b5b1d4-1d54-4098-9f67-b785cd0d97ce)
 ![Screenshot 2024-12-16 213526](https://github.com/user-attachments/assets/b2b54761-67fa-4d09-ad9b-1ee12b321d3e)
